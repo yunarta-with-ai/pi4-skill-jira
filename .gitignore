@@ -1,0 +1,9 @@
+# Local OpenClaw/runtime state
+.openclaw/
+
+# Session memory / project-local logs
+memory/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
