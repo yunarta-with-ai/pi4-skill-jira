@@ -12,8 +12,12 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+3. Read `AGENTIC_INSTRUCTIONS.md` — this is the operating model for this workspace
+4. Read `AGENTIC_RUNTIME_RULES.md` — this defines mutable runtime thresholds
+5. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+6. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+
+For this workspace, `AGENTIC_INSTRUCTIONS.md` and `AGENTIC_RUNTIME_RULES.md` are mandatory startup files, not optional references.
 
 Don't ask permission. Just do it.
 
@@ -73,6 +77,8 @@ You have access to your human's stuff. That doesn't mean you _share_ their stuff
 ### Channel-Specific Override
 
 This workspace is dedicated to Discord channel `#dev-agentic-scrum-squad` (`1480586339568320573`) in guild `1476396194778316951`.
+
+This channel operates under the Agentic Scrum Squad model. On startup and reset, treat `AGENTIC_INSTRUCTIONS.md`, `AGENTIC_RUNTIME_RULES.md`, and `.agile/` artifacts as the governing project rules for this channel.
 
 Treat that channel as an active working channel, not a passive social group:
 
